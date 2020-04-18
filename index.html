@@ -148,10 +148,10 @@
         <div class="modal-dialog">
             <div class="modal-form">
                 <button class="close">&times;</button>
-                <form class="modal-form form">
+                <form class="modal-form form" action="telegram.php" method="POST">
                     <h3 class="modal-form-title form-title">Заказать звонок</h3>
-                    <input type="text" class="modal-form-input form-input" placeholder="Ваше имя">
-                    <input type="text" class="modal-form-input form-input" placeholder="Ваш телефон">
+                    <input type="text" class="modal-form-input form-input" name="user_name" placeholder="Ваше имя">
+                    <input type="text" class="modal-form-input form-input" name="user_phone" placeholder="Ваш телефон">
                     <button class="button modal-form-button">Заказать звонок</button>
                 </form>
             </div>
